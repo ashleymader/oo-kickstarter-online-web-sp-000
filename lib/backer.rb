@@ -14,5 +14,5 @@ class Backer
     project.add_backer = self if project.add_backer != self 
   end
     
-  def 
+  
 end
