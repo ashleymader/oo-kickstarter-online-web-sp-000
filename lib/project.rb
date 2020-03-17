@@ -2,9 +2,9 @@ require 'pry'
 
 class Project 
   
-  attr_accessor :project
-  def initialize(name)
-    @project =  project 
+  attr_accessor :title
+  def initialize(title)
+    @title =  project 
   end
   
   
