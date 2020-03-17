@@ -8,8 +8,8 @@ class Backer
     @backed_projects = []
   end
   
-  def back_projects
-    Project.all.select {|title| title.backer == self}
+  def back_projects(Project)
+    @back_projects << Project 
   end
   
 end
