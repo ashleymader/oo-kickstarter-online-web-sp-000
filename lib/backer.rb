@@ -11,7 +11,7 @@ class Backer
 
   def back_project(project)
     @back_projects << project 
-    project.backer = self
+    project.backer = self if 
   end
     @songs << song
     song.artist = self if song.artist != self
